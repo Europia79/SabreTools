@@ -320,11 +320,11 @@ namespace SabreTools.Help
                 if (i == Console.WindowHeight - 3 && line != helptext.Count - 1)
                 {
                     i = 0;
-                    Pause();
+                    // Pause();
                 }
             }
 
-            Pause();
+            // Pause();
         }
 
         /// <summary>
